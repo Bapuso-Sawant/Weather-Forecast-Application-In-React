@@ -1,0 +1,46 @@
+/*
+Myapi key: e458305f88dacf7b4001ad0836e7423a
+api.openweathermap.org/data/2.5/weather?q={city name}&appid=e458305f88dacf7b4001ad0836e7423a 
+*/
+
+.main{
+    background-color: #F2EED8;
+    height: 800px;    
+    display: flex;            
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    background-color: #AFD3F3;   
+    height: 550px;
+    width: 450px;    
+    /* margin-top: 100px;
+    margin-left: 600px; */    
+    border-radius: 10px;    
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.2);   
+}
+.inputData{
+    padding-top: 20px;
+}
+
+.inputData input{    
+    padding-bottom: 20px ;
+    border-radius: 20px;
+    border: none;
+    height: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputData input:focus{
+    outline: none;
+}
+.inputData input[type]{
+    background-color: whitesmoke;
+    padding-top: 20px;
+}
+
+.info #logo{
+    font-size: 80px;
+    color: whitesmoke;    
+}
